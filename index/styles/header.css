@@ -1,4 +1,3 @@
-/* Estilos para o header geral */
 header {
   background-color: #333;
   color: #fff;
@@ -12,12 +11,11 @@ header {
   max-width: 100px;
 }
 
-/* Estilos para a navegação */
 nav ul {
   list-style-type: none;
   display: flex;
-  margin: 0; /* Remove o espaçamento padrão */
-  padding: 0; /* Remove o espaçamento interno padrão */
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
