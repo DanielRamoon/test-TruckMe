@@ -2,26 +2,27 @@
   <div class="home-page">
     <HeaderComponent />
     <BannerComponent />
+    <AboutComponent />
     <!-- Outro conteúdo da página Home -->
   </div>
 </template>
 
 <script>
 import HeaderComponent from "@/components/HeaderComponent.vue";
-import BannerComponent from "@/components/BannerComponent.vue"; // Importe o BannerComponent
+import BannerComponent from "@/components/BannerComponent.vue";
+import AboutComponent from "@/components/AboutComponent.vue";
 
 export default {
   name: "HomePage",
   components: {
     HeaderComponent,
-    BannerComponent, // Adicione o BannerComponent aos componentes importados
+    BannerComponent,
+    AboutComponent,
   },
 };
 </script>
 
 <style scoped>
-/* Estilos específicos da página Home */
 .home-page {
-  /* Estilos da página Home */
 }
 </style>
