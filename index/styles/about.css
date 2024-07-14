@@ -1,0 +1,52 @@
+.about-us {
+  padding: 3rem;
+  background-color: #f57c00;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.about-us p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.about-us button {
+  background-color: #f57c00;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    background-color: #f57c00;
+  }
+  to {
+    background-color: #e65100;
+  }
+}
+
+.about-us button:hover {
+  animation: none;
+  background-color: #e65100;
+}
+
+#more-text {
+  display: none;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/banner.css" />
+    <link rel="stylesheet" href="../styles/about.css" />
+    <link rel="stylesheet" href="../styles/service.css" />
+    <link rel="stylesheet" href="../styles/gallery.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/back-to-top.css" />
   </head>
   <body>
     <header>
@@ -26,6 +32,141 @@
         <h1>Bem-vindo à TruckMe</h1>
       </div>
     </section>
+
+    <section class="about-us" id="about-us">
+      <h2>Sobre Nós</h2>
+      <p id="about-text">
+        A TruckMe é uma empresa especializada em logística e transporte.
+        <span id="more-text" style="display: none"
+          >Oferecemos soluções completas para o transporte de mercadorias,
+          garantindo eficiência e segurança.</span
+        >
+      </p>
+      <button id="read-more">Leia mais</button>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Serviços</h2>
+      <table id="services-table">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Transporte Rodoviário</td>
+            <td>Transporte de cargas por rodovias nacionais.</td>
+            <td>R$ 200,00</td>
+          </tr>
+          <tr>
+            <td>Transporte Marítimo</td>
+            <td>Transporte de cargas por navios em rotas internacionais.</td>
+            <td>R$ 500,00</td>
+          </tr>
+          <tr>
+            <td>Armazenagem</td>
+            <td>Armazenamento seguro de mercadorias em nossos armazéns.</td>
+            <td>R$ 100,00/mês</td>
+          </tr>
+          <tr>
+            <td>Logística Reversa</td>
+            <td>Gerenciamento de devoluções e reciclagem de produtos.</td>
+            <td>Varia conforme projeto</td>
+          </tr>
+          <tr>
+            <td>Seguro de Cargas</td>
+            <td>Oferecemos seguro para proteção das suas mercadorias.</td>
+            <td>R$ 50,00</td>
+          </tr>
+          <tr>
+            <td>Transporte Aéreo</td>
+            <td>Transporte de cargas por via aérea.</td>
+            <td>R$ 800,00</td>
+          </tr>
+          <tr>
+            <td>Entrega Rápida</td>
+            <td>Entrega expressa para prazos reduzidos.</td>
+            <td>R$ 150,00</td>
+          </tr>
+          <tr>
+            <td>Logística de Eventos</td>
+            <td>Gestão logística especializada para eventos.</td>
+            <td>Varia conforme projeto</td>
+          </tr>
+          <tr>
+            <td>Frete Internacional</td>
+            <td>Transporte de cargas para destinos internacionais.</td>
+            <td>Varia conforme destino</td>
+          </tr>
+        </tbody>
+      </table>
+      <div id="pagination">
+        <button id="prev-page">Anterior</button>
+        <span id="page-info">Página 1 de 3</span>
+        <button id="next-page">Próximo</button>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Galeria</h2>
+      <div class="gallery-container">
+        <button id="prev">Anterior</button>
+        <img
+          src="../assets/images/banner01.jpeg"
+          alt="Imagem 1"
+          class="gallery-image"
+        />
+        <button id="next">Próximo</button>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contato</h2>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="success-message" style="display: none">
+        Mensagem enviada com sucesso!
+      </p>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img
+            src="../assets/images/logo.png"
+            alt="TruckMe Logo"
+            class="logo"
+          />
+        </div>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#about-us">Sobre</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <p>Email: contato@truckme.com</p>
+          <p>Telefone: (11) 1234-5678</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 TruckMe. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <a href="#inicio" class="back-to-top">↑</a>
 
     <script src="../Js/index.js"></script>
   </body>

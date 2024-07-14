@@ -19,7 +19,6 @@ document
     if (name && email && message) {
       if (validateEmail(email)) {
         document.getElementById("success-message").style.display = "block";
-        clearForm();
       } else {
         alert("Por favor, insira um e-mail válido.");
       }
@@ -34,18 +33,11 @@ function validateEmail(email) {
   return re.test(String(email).toLowerCase());
 }
 
-// Função para limpar os campos do formulário de contato
-function clearForm() {
-  document.getElementById("name").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("message").value = "";
-}
-
 // Funções para navegar pelas imagens da galeria
 var currentImageIndex = 0;
 var images = [
   "../assets/images/banner01.jpeg",
-  "../assets/images/banner02.png",
+  "../assets/images/bnner02.png",
   "../assets/images/banner03.jpeg",
 ];
 var galleryImage = document.querySelector(".gallery-image");
