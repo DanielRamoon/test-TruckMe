@@ -6,6 +6,7 @@
     <ServicesTableComponent />
     <GalleryComponent />
     <ContactFormComponent />
+    <FooterComponent />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import AboutComponent from "@/components/AboutComponent.vue";
 import ServicesTableComponent from "@/components/ServicesTableComponent.vue";
 import GalleryComponent from "@/components/GalleryComponent.vue";
 import ContactFormComponent from "@/components/ContactFormComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 
 export default {
   name: "HomePage",
@@ -26,11 +28,7 @@ export default {
     ServicesTableComponent,
     GalleryComponent,
     ContactFormComponent,
+    FooterComponent,
   },
 };
 </script>
-
-<style scoped>
-.home-page {
-}
-</style>

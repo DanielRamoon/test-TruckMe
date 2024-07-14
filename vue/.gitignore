@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+
+# Arquivos de build
+dist/
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Arquivos específicos do macOS
+.DS_Store
+
+# Arquivos de log
+*.log
+
+# Variáveis de ambiente locais
+.env.local
+.env.*.local
+
+# Cache
+.cache/
