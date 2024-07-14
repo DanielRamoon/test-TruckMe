@@ -3,7 +3,7 @@
     <HeaderComponent />
     <BannerComponent />
     <AboutComponent />
-    <!-- Outro conteúdo da página Home -->
+    <ServicesTableComponent />
   </div>
 </template>
 
@@ -11,6 +11,7 @@
 import HeaderComponent from "@/components/HeaderComponent.vue";
 import BannerComponent from "@/components/BannerComponent.vue";
 import AboutComponent from "@/components/AboutComponent.vue";
+import ServicesTableComponent from "@/components/ServicesTableComponent.vue";
 
 export default {
   name: "HomePage",
@@ -18,11 +19,7 @@ export default {
     HeaderComponent,
     BannerComponent,
     AboutComponent,
+    ServicesTableComponent,
   },
 };
 </script>
-
-<style scoped>
-.home-page {
-}
-</style>

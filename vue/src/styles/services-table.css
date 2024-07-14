@@ -1,0 +1,40 @@
+.services-table {
+  margin-top: 20px;
+}
+
+.services-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.services-table th,
+.services-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.services-table th {
+  background-color: #f2f2f2;
+}
+
+.services-table .pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.services-table .pagination button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.services-table .pagination button.active {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
